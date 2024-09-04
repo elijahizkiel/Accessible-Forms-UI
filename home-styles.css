@@ -62,19 +62,19 @@ input:focus {
     color: #4caf50;
 }
 
-.circular-progress[data-progress="25"] {
+.circular-progress[completed-forms="25"] {
     --progress: 90deg;
 }
 
-.circular-progress[data-progress="50"] {
+.circular-progress[completed-forms="50"] {
     --progress: 180deg;
 }
 
-.circular-progress[data-progress="75"] {
+.circular-progress[completed-forms="75"] {
     --progress: 270deg;
 }
 
-.circular-progress[data-progress="100"] {
+.circular-progress[completed-forms="100"] {
     --progress: 360deg;
 }
 
