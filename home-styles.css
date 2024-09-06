@@ -61,6 +61,9 @@ input:focus {
     font-weight: bold;
     color: #4caf50;
 }
+label {
+    display: block;
+}
 
 .circular-progress[completed-forms="25"] {
     --progress: 90deg;
@@ -92,6 +95,15 @@ input:focus {
     font-size: 0.7rem;
 }
 button {
+    color:aqua;
     border-radius: 20px;
-    padding: 5%;
+    padding: 10px 25px ;
+    background-color: #301E67;
+    border:2px solid #a1d1f9;
+}
+.visibility {
+    position:relative;
+    display:inline-block;
+    top:-40px;
+    left: 150px;
 }
