@@ -104,6 +104,9 @@ button {
 .visibility {
     position:relative;
     display:inline-block;
-    top:-40px;
+    top:-37px;
     left: 150px;
+}
+.completed-forms {
+    text-decoration: line-through;
 }
